@@ -1,1 +1,1 @@
-curl -s https://api.github.com/users {} | jq '.id'
+curl -s https://api.github.com/users/AibarBaltykhan | jq '.id'
