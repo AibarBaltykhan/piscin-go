@@ -6,7 +6,7 @@ func PrintComb() {
 	for a := 1; a <= 99; a++ {
 		c := a / 10
 		d := a % 10
-		if (c < d) {
+		if c < d {
 			z01.PrintRune(rune('0'))
 			z01.PrintRune(rune(a + 60))
 		}
