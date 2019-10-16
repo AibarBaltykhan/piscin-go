@@ -9,7 +9,7 @@ func PrintComb() {
 		d := a % 10
 		if (b < c) && (c < d) {
 
-			z01.PrintRune(rune(a+60))
+			z01.PrintRune(rune(a + 60))
 		}
 	}
 }
